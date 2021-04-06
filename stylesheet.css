@@ -19,6 +19,11 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
 
+#spa{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .main ul{
     top: 5%;
     float: right;
@@ -98,13 +103,67 @@ body{
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.python {width: 75%; background-color: #f44336;} /* Red */
-.ml {width: 60%; background-color: #808080;} /* Dark Grey */
-.c {width: 90%; background-color:rgb(255, 0, 119);}
-.sql {width: 80%; background-color:rgba(255, 0, 0, 0.5);}
+.html {width: 90%; background-color: #4CAF50; animation: html 2s;} /* Green */
+.css {width: 80%; background-color: #2196F3; animation: css 2s;} /* Blue */
+.python {width: 75%; background-color: #f44336; animation: python 2s;} /* Red */
+.ml {width: 60%; background-color: #808080; animation: ml 2s;} /* Dark Grey */
+.c {width: 90%; background-color:rgb(255, 0, 119); animation: c 2s;}
+.sql {width: 80%; background-color:rgba(255, 0, 0, 0.5); animation: sql 2s;}
 
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+    
+}
+@keyframes ml {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+    
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+    
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
 
 table, th, td {
     border: 1px solid black;
