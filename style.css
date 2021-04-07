@@ -7,6 +7,17 @@
   font-family: serif;
 }
 
+#page{
+  width: 1520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bor{
+  border: 2px solid transparent;
+  
+}
+
 body{
     background-image:linear-gradient(rgba(104, 92, 92, 0),rgba(110, 88, 88, 0)),url(bg.jpg);
    /* background-color: #f3f5f9; */
