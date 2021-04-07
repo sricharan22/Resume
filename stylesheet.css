@@ -6,17 +6,24 @@
 
 #bor{
     border: 2px solid black;
+    background-image:linear-gradient(rgba(104, 92, 92, 0),rgba(110, 88, 88, 0)),url(/plain.jpg);
+   /* background-color: #f3f5f9; */
+   background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
 }
 
-body{
-    background-color:lightgrey;
+/* body{ */
+    /* background-color:lightgrey; */
+    
     /* height: 654px; */
     /* border: 2px solid black; */
     /* width: 50%; */
-}
+/* } */
 
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    font-family: serif;   
 }
 
 #spa{
