@@ -1,17 +1,17 @@
 *{
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
   font-family: serif;
 }
 
-#page{
+/* #page{
   width: 1520px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 /* 
 #bor{
   border: 2px solid transparent;
